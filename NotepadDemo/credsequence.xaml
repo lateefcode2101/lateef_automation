@@ -1,0 +1,221 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="credsequence" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="854,1256.66666666667" sap2010:WorkflowViewState.IdRef="credsequence_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/credentials" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ss="clr-namespace:System.Security;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="30">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>CredentialManagement</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.Credentials.Activities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="23">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>netstandard</AssemblyReference>
+      <AssemblyReference>CredentialManagement</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Credentials.Activities</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="credsequence" sap:VirtualizedContainerService.HintSize="552,1192" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" BrowserType="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="510,1008" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="https://acme-test.uipath.com/login">
+      <ui:OpenBrowser.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="476,906" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:OnUiElementAppear ContinueOnError="{x:Null}" FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="On Element Appear 'H1'" sap:VirtualizedContainerService.HintSize="434,814" sap2010:WorkflowViewState.IdRef="OnUiElementAppear_1">
+              <ui:OnUiElementAppear.Body>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,638" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="inputText" />
+                    <Variable x:TypeArguments="ss:SecureString" Name="passVariable" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <p:GetSecureCredential CredentialType="Generic" DisplayName="Get Secure Credentials" sap:VirtualizedContainerService.HintSize="334,80" sap2010:WorkflowViewState.IdRef="GetSecureCredential_1" Password="[passVariable]" PersistanceType="Enterprise" Target="ACME_Credentials" Username="[inputText]" />
+                  <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  email'" EmptyField="True" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_1" SendWindowMessages="False" SimulateType="True" Text="[inputText]">
+                    <ui:TypeInto.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a9a2b901-d248-4f0c-b45c-e914a64f6bb9" InformativeScreenshot="a5c188a0bb93e620ae6e9e6f62894b09" Selector="&lt;html app='chrome.exe' title='ACME System 1 - Log In' /&gt;&lt;webctrl tag='INPUT' type='email' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:TypeInto.Target>
+                  </ui:TypeInto>
+                  <ui:TypeSecureText AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Secure Text 'INPUT  password'" EmptyField="True" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="TypeSecureText_1" SecureText="[passVariable]" SimulateType="True">
+                    <ui:TypeSecureText.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f39365c5-e110-4980-90b7-ef8039294c14" InformativeScreenshot="ed6f6ffbf14e8b30d93cfa74255ebac9" Selector="&lt;html app='chrome.exe' title='ACME System 1 - Log In' /&gt;&lt;webctrl tag='INPUT' type='password' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:TypeSecureText.Target>
+                  </ui:TypeSecureText>
+                  <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+                    <ui:Click.CursorPosition>
+                      <ui:CursorPosition Position="Center">
+                        <ui:CursorPosition.OffsetX>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetX>
+                        <ui:CursorPosition.OffsetY>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetY>
+                      </ui:CursorPosition>
+                    </ui:Click.CursorPosition>
+                    <ui:Click.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3817fa98-6416-4d05-bf61-a0872f0df6f3" InformativeScreenshot="5ca0177b5e46d5234538b030caa58326" Selector="&lt;html app='chrome.exe' title='ACME System 1 - Log In' /&gt;&lt;webctrl tag='BUTTON' type='submit' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:Click.Target>
+                  </ui:Click>
+                </Sequence>
+              </ui:OnUiElementAppear.Body>
+              <ui:OnUiElementAppear.RepeatForever>
+                <Literal x:TypeArguments="x:Boolean" />
+              </ui:OnUiElementAppear.RepeatForever>
+              <ui:OnUiElementAppear.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="29cde87b-ab85-41de-be59-7e33bc47a642" InformativeScreenshot="0b23ee749b610017fa8602113963c470" Selector="&lt;html app='chrome.exe' title='ACME System 1 - Log In' /&gt;&lt;webctrl tag='H1' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:OnUiElementAppear.Target>
+            </ui:OnUiElementAppear>
+          </Sequence>
+        </ActivityAction>
+      </ui:OpenBrowser.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:OpenBrowser>
+    <Pick sap:VirtualizedContainerService.HintSize="510,52" sap2010:WorkflowViewState.IdRef="Pick_1">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <PickBranch sap:VirtualizedContainerService.HintSize="384.666666666667,400.666666666667" sap2010:WorkflowViewState.IdRef="PickBranch_1">
+        <PickBranch.Trigger>
+          <ui:UiElementExists Exists="{x:Null}" DisplayName="Element Exists 'H1'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+            <ui:UiElementExists.Target>
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="89e5bf38-df51-4282-9308-e8dc8dd4286e" InformativeScreenshot="c071fc4bb362aa2422bac8c22becedd8" Selector="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;&lt;webctrl tag='H1' /&gt;" TimeoutMS="5000">
+                <ui:Target.WaitForReady>
+                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                </ui:Target.WaitForReady>
+              </ui:Target>
+            </ui:UiElementExists.Target>
+          </ui:UiElementExists>
+        </PickBranch.Trigger>
+        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,93.3333333333333" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Inside element exists:-  login successful&quot;]" />
+      </PickBranch>
+      <PickBranch sap:VirtualizedContainerService.HintSize="384.666666666667,400.666666666667" sap2010:WorkflowViewState.IdRef="PickBranch_2">
+        <PickBranch.Trigger>
+          <ui:UiElementExists Exists="{x:Null}" DisplayName="Element Exists 'STRONG'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="UiElementExists_2">
+            <ui:UiElementExists.Target>
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="664111b4-8188-48eb-bffc-de4e90eaafff" InformativeScreenshot="b0de27603bf9067c06dfbf19e9026d0b" Selector="&lt;html app='chrome.exe' title='ACME System 1 - Log In' /&gt;&lt;webctrl tag='STRONG' /&gt;" TimeoutMS="5000">
+                <ui:Target.WaitForReady>
+                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                </ui:Target.WaitForReady>
+              </ui:Target>
+            </ui:UiElementExists.Target>
+          </ui:UiElementExists>
+        </PickBranch.Trigger>
+        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,93.3333333333333" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Error" Message="[&quot;Inside element exists:- invalid credentials&quot;]" />
+      </PickBranch>
+      <PickBranch sap:VirtualizedContainerService.HintSize="384.666666666667,400.666666666667" sap2010:WorkflowViewState.IdRef="PickBranch_3">
+        <PickBranch.Trigger>
+          <ui:ImageFound Found="{x:Null}" DisplayName="Image Exists 'chrome.exe ACME'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="ImageFound_1">
+            <ui:ImageFound.Image>
+              <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" InitialScalingFactor="1.5" Profile="Basic" TargetImageBase64="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" />
+            </ui:ImageFound.Image>
+            <ui:ImageFound.Target>
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3ef70961-3615-4ad0-91e2-5bbeae3c087e" Selector="&lt;html app='chrome.exe' title='ACME System 1 - Log In' /&gt;" TimeoutMS="5000">
+                <ui:Target.WaitForReady>
+                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                </ui:Target.WaitForReady>
+              </ui:Target>
+            </ui:ImageFound.Target>
+          </ui:ImageFound>
+        </PickBranch.Trigger>
+        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,93.3333333333333" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Warn" Message="[&quot;Inside element exists:- insufficient credentials&quot;]" />
+      </PickBranch>
+    </Pick>
+  </Sequence>
+</Activity>
