@@ -4,8 +4,8 @@
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.16.0]",
-    "UiPath.System.Activities": "[22.10.1]",
-    "UiPath.UIAutomation.Activities": "[22.10.1]"
+    "UiPath.System.Activities": "[22.10.3]",
+    "UiPath.UIAutomation.Activities": "[22.10.2]"
   },
   "webServices": [],
   "entitiesStores": [],

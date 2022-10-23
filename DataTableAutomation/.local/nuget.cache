@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3naUkIjG5J3n3UrspuHblPlgP4yLHbT/odckDRwvhOChcvdRg8tEFGMaMI7zKFYBGlSKMp+zoNdVVSvHkUquBA==",
+  "dgSpecHash": "KdrKE6j1Y9CguKj8TYE05IIEdT1jp1jNMHEfRPMKXhwF0m7ZByxXCRpF26iq8Ltz8NFjZfNa2zodHPjr2XEY3A==",
   "success": true,
   "projectFilePath": "D:\\Automation Projects\\DataTableAutomation\\.local\\",
   "expectedPackageFiles": [
@@ -69,9 +69,9 @@
     "C:\\Users\\Abdul\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\uipath.ocr.activities.3.11.0.nupkg.sha512",
     "C:\\Users\\Abdul\\.nuget\\packages\\uipath.ocr.contracts\\2.13.0\\uipath.ocr.contracts.2.13.0.nupkg.sha512",
     "C:\\Users\\Abdul\\.nuget\\packages\\uipath.platform\\22.10.2\\uipath.platform.22.10.2.nupkg.sha512",
-    "C:\\Users\\Abdul\\.nuget\\packages\\uipath.system.activities\\22.10.1\\uipath.system.activities.22.10.1.nupkg.sha512",
+    "C:\\Users\\Abdul\\.nuget\\packages\\uipath.system.activities\\22.10.3\\uipath.system.activities.22.10.3.nupkg.sha512",
     "C:\\Users\\Abdul\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\uipath.telemetry.client.1.5.3.nupkg.sha512",
-    "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.1\\uipath.uiautomation.activities.22.10.1.nupkg.sha512",
+    "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\uipath.uiautomation.activities.22.10.2.nupkg.sha512",
     "C:\\Users\\Abdul\\.nuget\\packages\\uipath.vision\\3.6.0\\uipath.vision.3.6.0.nupkg.sha512"
   ],
   "logs": []

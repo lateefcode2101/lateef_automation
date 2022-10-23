@@ -1245,7 +1245,7 @@
           }
         }
       },
-      "UiPath.System.Activities/22.10.1": {
+      "UiPath.System.Activities/22.10.3": {
         "type": "package",
         "dependencies": {
           "CsvHelper": "16.0.0",
@@ -1360,7 +1360,7 @@
           "lib/net461/TelemetryClient.dll": {}
         }
       },
-      "UiPath.UIAutomation.Activities/22.10.1": {
+      "UiPath.UIAutomation.Activities/22.10.2": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
@@ -2966,7 +2966,7 @@
           }
         }
       },
-      "UiPath.System.Activities/22.10.1": {
+      "UiPath.System.Activities/22.10.3": {
         "type": "package",
         "dependencies": {
           "CsvHelper": "16.0.0",
@@ -3081,7 +3081,7 @@
           "lib/net461/TelemetryClient.dll": {}
         }
       },
-      "UiPath.UIAutomation.Activities/22.10.1": {
+      "UiPath.UIAutomation.Activities/22.10.2": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
@@ -5675,10 +5675,10 @@
         "uipath.platform.nuspec"
       ]
     },
-    "UiPath.System.Activities/22.10.1": {
-      "sha512": "u1utzCN5pcmarshXnK9kidlxKdpnOQCR08O/z/7bmmiFmpP25jv5tad9MTAD3AIK1gwYJrLOoY+LD7J9Okx1EA==",
+    "UiPath.System.Activities/22.10.3": {
+      "sha512": "lMSAVXIBmByynxsRXOpWBGP+YKuLgyESVXKWDL4s6j5j1hcnwC21kfVKM0HQ0N7O8nbWXSZhnDROT/uxOPkwAQ==",
       "type": "package",
-      "path": "uipath.system.activities/22.10.1",
+      "path": "uipath.system.activities/22.10.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5764,7 +5764,7 @@
         "lib/net5.0/tr/UiPath.System.Activities.resources.dll",
         "lib/net5.0/zh-CN/UiPath.System.Activities.resources.dll",
         "lib/net5.0/zu/UiPath.System.Activities.resources.dll",
-        "uipath.system.activities.22.10.1.nupkg.sha512",
+        "uipath.system.activities.22.10.3.nupkg.sha512",
         "uipath.system.activities.nuspec"
       ]
     },
@@ -5782,10 +5782,10 @@
         "uipath.telemetry.client.nuspec"
       ]
     },
-    "UiPath.UIAutomation.Activities/22.10.1": {
-      "sha512": "+oCKB+DkA+r9vggQ0r5mfw5sIN3yh3ts13w7YXLp/7RZzW2C846nOC9Qp2o3YaIhcIoLhMdbks8Iny3S+6wwNg==",
+    "UiPath.UIAutomation.Activities/22.10.2": {
+      "sha512": "tqw3bwZYAG+zTFqWPzHpJEkweFYJDWIPg8DYHb51yOwRzMsr7bui5IidiEXm0VwV2i22qApcHpOoAqC7xu0uCA==",
       "type": "package",
-      "path": "uipath.uiautomation.activities/22.10.1",
+      "path": "uipath.uiautomation.activities/22.10.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6221,7 +6221,7 @@
         "lib/net6.0/zh-CN/UiPath.UIAutomationNext.Activities.Design.resources.dll",
         "lib/net6.0/zh-CN/UiPath.UIAutomationNext.Activities.resources.dll",
         "lib/net6.0/zu/UiPath.UIAutomationNext.Activities.resources.dll",
-        "uipath.uiautomation.activities.22.10.1.nupkg.sha512",
+        "uipath.uiautomation.activities.22.10.2.nupkg.sha512",
         "uipath.uiautomation.activities.nuspec"
       ]
     },
@@ -6468,8 +6468,8 @@
     "": [],
     ".NETFramework,Version=v4.6.1": [
       "UiPath.Excel.Activities >= 2.16.0 <= 2.16.0",
-      "UiPath.System.Activities >= 22.10.1 <= 22.10.1",
-      "UiPath.UIAutomation.Activities >= 22.10.1 <= 22.10.1"
+      "UiPath.System.Activities >= 22.10.3 <= 22.10.3",
+      "UiPath.UIAutomation.Activities >= 22.10.2 <= 22.10.2"
     ]
   },
   "packageFolders": {
@@ -6494,12 +6494,12 @@
           "UiPath.System.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[22.10.1, 22.10.1]"
+            "version": "[22.10.3, 22.10.3]"
           },
           "UiPath.UIAutomation.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[22.10.1, 22.10.1]"
+            "version": "[22.10.2, 22.10.2]"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Users\\Abdul\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
