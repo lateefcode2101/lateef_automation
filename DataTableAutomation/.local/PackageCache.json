@@ -93,6 +93,54 @@
         "C:\\Users\\Abdul\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/net461/TelemetryClient.dll"
       ],
       "Path": "C:\\Users\\Abdul\\.nuget\\packages\\uipath.system.activities\\22.10.3"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.UIAutomation.Activities",
+        "Version": "22.10.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\Abdul\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1\\lib/net461/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.18\\lib/net452/Microsoft.Rest.ClientRuntime.Azure.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\nlog\\4.5.11\\lib/net45/NLog.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\polly\\7.1.0\\lib/netstandard2.0/Polly.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\system.buffers\\4.5.1\\lib/net461/System.Buffers.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\system.collections.immutable\\5.0.0\\lib/net461/System.Collections.Immutable.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\system.memory\\4.5.4\\lib/net461/System.Memory.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\lib/net46/System.Numerics.Vectors.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath\\22.10.46.47635\\lib/net45/UiPath.Interop.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6\\lib/net461/UiPath.Activities.RuntimeGovernance.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.imageprocessing\\22.4.1\\lib/net461/UiPath.ImageProcessingInterop.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\lib/net461/UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\lib/net461/UiPath.OCR.Activities.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\lib/net461/UiPath.OCR.Core.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.ocr.contracts\\2.13.0\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.platform\\22.10.2\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/net461/TelemetryClient.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\lib/net461/UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\lib/net461/UiPath.CV.Activities.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\lib/net461/UiPath.CV.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\lib/net461/UiPath.UIAutomationCore.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\lib/net461/UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\lib/net461/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\lib/net461/UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\lib/net461/UiPath.Wizards.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net461/UiPath.Vision.Core.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net461/UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net461/UiPath.Vision.Microsoft.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net461/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.vision\\3.6.0\\lib/net461/UiPath.Vision.dll"
+      ],
+      "Path": "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2"
     }
   ],
   "Conflicts": [],
@@ -290,6 +338,24 @@
         }
       ]
     },
+    "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
+      "Id": "Microsoft.Azure.CognitiveServices.Vision.ComputerVision",
+      "Version": "7.0.1",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Rest.ClientRuntime",
+          "Item2": "[2.3.20, 3.0.0)"
+        },
+        {
+          "Item1": "Microsoft.Rest.ClientRuntime.Azure",
+          "Item2": "[3.3.18, 4.0.0)"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[10.0.3, )"
+        }
+      ]
+    },
     "Microsoft.Bcl.AsyncInterfaces": {
       "Id": "Microsoft.Bcl.AsyncInterfaces",
       "Version": "1.1.1",
@@ -482,6 +548,20 @@
         }
       ]
     },
+    "Microsoft.Rest.ClientRuntime.Azure": {
+      "Id": "Microsoft.Rest.ClientRuntime.Azure",
+      "Version": "3.3.18",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Rest.ClientRuntime",
+          "Item2": "[2.3.17, 3.0.0)"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[6.0.8, )"
+        }
+      ]
+    },
     "Microsoft.VisualBasic": {
       "Id": "Microsoft.VisualBasic",
       "Version": "10.3.0",
@@ -497,6 +577,11 @@
       "Version": "13.0.1",
       "Dependencies": []
     },
+    "NLog": {
+      "Id": "NLog",
+      "Version": "4.5.11",
+      "Dependencies": []
+    },
     "NPOI": {
       "Id": "NPOI",
       "Version": "2.5.5",
@@ -510,6 +595,11 @@
           "Item2": "[1.8.9, )"
         }
       ]
+    },
+    "Polly": {
+      "Id": "Polly",
+      "Version": "7.1.0",
+      "Dependencies": []
     },
     "Portable.BouncyCastle": {
       "Id": "Portable.BouncyCastle",
@@ -710,6 +800,21 @@
       "Version": "4.5.0",
       "Dependencies": []
     },
+    "UiPath": {
+      "Id": "UiPath",
+      "Version": "22.10.46.47635",
+      "Dependencies": []
+    },
+    "UiPath.Activities.RuntimeGovernance": {
+      "Id": "UiPath.Activities.RuntimeGovernance",
+      "Version": "1.1.6",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        }
+      ]
+    },
     "UiPath.Excel.Activities": {
       "Id": "UiPath.Excel.Activities",
       "Version": "2.16.0",
@@ -751,6 +856,54 @@
           "Item2": "[1.5.3, )"
         }
       ]
+    },
+    "UiPath.ImageProcessing": {
+      "Id": "UiPath.ImageProcessing",
+      "Version": "22.4.1",
+      "Dependencies": []
+    },
+    "UiPath.OCR.Activities": {
+      "Id": "UiPath.OCR.Activities",
+      "Version": "3.11.0",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Azure.CognitiveServices.Vision.ComputerVision",
+          "Item2": "[7.0.1, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[13.0.1, )"
+        },
+        {
+          "Item1": "NLog",
+          "Item2": "[4.5.11, )"
+        },
+        {
+          "Item1": "Polly",
+          "Item2": "[7.1.0, )"
+        },
+        {
+          "Item1": "System.Collections.Immutable",
+          "Item2": "[5.0.0, )"
+        },
+        {
+          "Item1": "System.ValueTuple",
+          "Item2": "[4.5.0, )"
+        },
+        {
+          "Item1": "UiPath.OCR.Contracts",
+          "Item2": "[2.13.0, )"
+        },
+        {
+          "Item1": "UiPath.Platform",
+          "Item2": "[22.10.2, )"
+        }
+      ]
+    },
+    "UiPath.OCR.Contracts": {
+      "Id": "UiPath.OCR.Contracts",
+      "Version": "2.13.0",
+      "Dependencies": []
     },
     "UiPath.Platform": {
       "Id": "UiPath.Platform",
@@ -847,6 +1000,62 @@
         {
           "Item1": "System.ValueTuple",
           "Item2": "[4.5.0, )"
+        }
+      ]
+    },
+    "UiPath.UIAutomation.Activities": {
+      "Id": "UiPath.UIAutomation.Activities",
+      "Version": "22.10.2",
+      "Dependencies": [
+        {
+          "Item1": "UiPath",
+          "Item2": "[22.10.46.47635, 22.10.46.47635]"
+        },
+        {
+          "Item1": "UiPath.Vision",
+          "Item2": "[3.6.0, )"
+        },
+        {
+          "Item1": "UiPath.OCR.Contracts",
+          "Item2": "[2.13.0, )"
+        },
+        {
+          "Item1": "UiPath.OCR.Activities",
+          "Item2": "[3.11.0, )"
+        },
+        {
+          "Item1": "UiPath.Platform",
+          "Item2": "[22.10.2, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[13.0.1, )"
+        },
+        {
+          "Item1": "System.IO.Abstractions",
+          "Item2": "[3.0.10, )"
+        },
+        {
+          "Item1": "UiPath.ImageProcessing",
+          "Item2": "[22.4.1, )"
+        },
+        {
+          "Item1": "UiPath.Telemetry.Client",
+          "Item2": "[1.5.3, )"
+        },
+        {
+          "Item1": "UiPath.Activities.RuntimeGovernance",
+          "Item2": "[1.1.6, )"
+        }
+      ]
+    },
+    "UiPath.Vision": {
+      "Id": "UiPath.Vision",
+      "Version": "3.6.0",
+      "Dependencies": [
+        {
+          "Item1": "UiPath.OCR.Contracts",
+          "Item2": "[2.13.0, )"
         }
       ]
     }
@@ -981,6 +1190,16 @@
         "C:\\Users\\Abdul\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll"
       ],
       "Path": "C:\\Users\\Abdul\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Azure.CognitiveServices.Vision.ComputerVision",
+        "Version": "7.0.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\Abdul\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1\\lib\\net461\\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll"
+      ],
+      "Path": "C:\\Users\\Abdul\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1"
     },
     {
       "Package": {
@@ -1142,6 +1361,16 @@
     },
     {
       "Package": {
+        "Id": "Microsoft.Rest.ClientRuntime.Azure",
+        "Version": "3.3.18"
+      },
+      "Assemblies": [
+        "C:\\Users\\Abdul\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.18\\lib\\net452\\Microsoft.Rest.ClientRuntime.Azure.dll"
+      ],
+      "Path": "C:\\Users\\Abdul\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.18"
+    },
+    {
+      "Package": {
         "Id": "Microsoft.VisualBasic",
         "Version": "10.3.0"
       },
@@ -1172,6 +1401,16 @@
     },
     {
       "Package": {
+        "Id": "NLog",
+        "Version": "4.5.11"
+      },
+      "Assemblies": [
+        "C:\\Users\\Abdul\\.nuget\\packages\\nlog\\4.5.11\\lib\\net45\\NLog.dll"
+      ],
+      "Path": "C:\\Users\\Abdul\\.nuget\\packages\\nlog\\4.5.11"
+    },
+    {
+      "Package": {
         "Id": "NPOI",
         "Version": "2.5.5"
       },
@@ -1182,6 +1421,16 @@
         "C:\\Users\\Abdul\\.nuget\\packages\\npoi\\2.5.5\\lib\\net45\\NPOI.dll"
       ],
       "Path": "C:\\Users\\Abdul\\.nuget\\packages\\npoi\\2.5.5"
+    },
+    {
+      "Package": {
+        "Id": "Polly",
+        "Version": "7.1.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Abdul\\.nuget\\packages\\polly\\7.1.0\\lib\\netstandard2.0\\Polly.dll"
+      ],
+      "Path": "C:\\Users\\Abdul\\.nuget\\packages\\polly\\7.1.0"
     },
     {
       "Package": {
@@ -1395,6 +1644,26 @@
     },
     {
       "Package": {
+        "Id": "UiPath",
+        "Version": "22.10.46.47635"
+      },
+      "Assemblies": [
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath\\22.10.46.47635\\lib\\net45\\UiPath.Interop.dll"
+      ],
+      "Path": "C:\\Users\\Abdul\\.nuget\\packages\\uipath\\22.10.46.47635"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Activities.RuntimeGovernance",
+        "Version": "1.1.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6\\lib\\net461\\UiPath.Activities.RuntimeGovernance.dll"
+      ],
+      "Path": "C:\\Users\\Abdul\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6"
+    },
+    {
+      "Package": {
         "Id": "UiPath.Excel.Activities",
         "Version": "2.16.0"
       },
@@ -1408,6 +1677,38 @@
         "C:\\Users\\Abdul\\.nuget\\packages\\uipath.excel.activities\\2.16.0\\lib\\net461\\UiPath.Excel.dll"
       ],
       "Path": "C:\\Users\\Abdul\\.nuget\\packages\\uipath.excel.activities\\2.16.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.ImageProcessing",
+        "Version": "22.4.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.imageprocessing\\22.4.1\\lib\\net461\\UiPath.ImageProcessingInterop.dll"
+      ],
+      "Path": "C:\\Users\\Abdul\\.nuget\\packages\\uipath.imageprocessing\\22.4.1"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.OCR.Activities",
+        "Version": "3.11.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\lib\\net461\\UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\lib\\net461\\UiPath.OCR.Activities.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.ocr.activities\\3.11.0\\lib\\net461\\UiPath.OCR.Core.dll"
+      ],
+      "Path": "C:\\Users\\Abdul\\.nuget\\packages\\uipath.ocr.activities\\3.11.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.OCR.Contracts",
+        "Version": "2.13.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.ocr.contracts\\2.13.0\\lib\\net461\\UiPath.OCR.Contracts.dll"
+      ],
+      "Path": "C:\\Users\\Abdul\\.nuget\\packages\\uipath.ocr.contracts\\2.13.0"
     },
     {
       "Package": {
@@ -1440,6 +1741,40 @@
         "C:\\Users\\Abdul\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib\\net461\\TelemetryClient.dll"
       ],
       "Path": "C:\\Users\\Abdul\\.nuget\\packages\\uipath.telemetry.client\\1.5.3"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.UIAutomation.Activities",
+        "Version": "22.10.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\lib\\net461\\UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\lib\\net461\\UiPath.CV.Activities.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\lib\\net461\\UiPath.CV.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\lib\\net461\\UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\lib\\net461\\UiPath.UIAutomationCore.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\lib\\net461\\UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\lib\\net461\\UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\lib\\net461\\UiPath.UIAutomationNext.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\lib\\net461\\UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\lib\\net461\\UiPath.Wizards.dll"
+      ],
+      "Path": "C:\\Users\\Abdul\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Vision",
+        "Version": "3.6.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net461\\UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net461\\UiPath.Vision.Core.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net461\\UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net461\\UiPath.Vision.Microsoft.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net461\\UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\Abdul\\.nuget\\packages\\uipath.vision\\3.6.0\\lib\\net461\\UiPath.Vision.dll"
+      ],
+      "Path": "C:\\Users\\Abdul\\.nuget\\packages\\uipath.vision\\3.6.0"
     }
   ]
 }
