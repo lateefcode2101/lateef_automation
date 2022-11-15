@@ -106,7 +106,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="818,301" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Choose the workflow" OptionsString="wildcard demo;variable demo" Title="select one">
+    <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="818,301" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Choose the workflow" OptionsString="wildcard demo;variable demo" Title="Select one">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:String">[selectDialog]</OutArgument>
       </ui:InputDialog.Result>
